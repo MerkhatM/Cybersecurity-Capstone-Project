@@ -21,7 +21,7 @@ const IncomeCard = () => {
                     <div key={index} className="card-block">
                         <h3>{block.title}</h3>
                         <img src={block.img} alt={block.title} />
-                        {/*<span>{block.text}</span>*/}
+                        <span>{block.text}</span>
                     </div>
                 ))}
                 <button onClick={addCardBlock}>+</button>
