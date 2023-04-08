@@ -15,11 +15,7 @@ const App = () => {
             </div>
 
         </div>
-           <TransactionBlock transactions={transactions}
-                             onUpdateTransactions={handleUpdateTransaction}
-                             onOpenModal={() => setIsModalOpen(true)}
-                             onEdit={handleEdit}
-                             onDelete={handleDelete}/>
+           <TransactionBlock />
        </div>
     );
 };
