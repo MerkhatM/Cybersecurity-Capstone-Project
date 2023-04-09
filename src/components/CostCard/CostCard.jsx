@@ -1,8 +1,15 @@
 import React, { useState } from "react";
 import "./style.css";
-
+import food from  "../../assets/food.png";
+import transport from "../../assets/transportpng.png";
+import purchase from "../../assets/buy.png";
 const CostCard = () => {
-    const [cardBlocks, setCardBlocks] = useState([]);
+    const initialCardBlocks = [
+        { title: 'Еда', img: food, text: 5000 },
+        { title: 'Транспорт', img: transport, text: 5300 },
+        { title: 'Покупки', img: purchase, text: 100000 },
+    ];
+    const [cardBlocks, setCardBlocks] = useState(initialCardBlocks);
 
     const addCardBlock = () => {
         setCardBlocks([

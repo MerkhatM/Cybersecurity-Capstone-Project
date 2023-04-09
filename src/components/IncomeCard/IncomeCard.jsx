@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 
 const IncomeCard = () => {
+
     const [cardBlocks, setCardBlocks] = useState([]);
 
     const addCardBlock = () => {
         setCardBlocks([
             ...cardBlocks,
-            { title: 'МУИТ', img: 'https://itest.kz/uploads/contest/partners/iitu.jpg', text: 'balance' },
+            {title: 'МУИТ', img: 'https://itest.kz/uploads/contest/partners/iitu.jpg', text: 'balance'},
+
         ]);
     };
 
