@@ -15,7 +15,7 @@ const IncomeCard = () => {
     };
 
     return (
-        <div className="card">
+        <div className="cardIncome">
             <div className="header">
                 <h2>Income</h2>
                 <p>{sumBalance(cardBlocks)} KZT</p>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./style.css";
 
-const TransactionBlock = () => {
+const TransactionBlock = (props) => {
     const [transactions, setTransactions] = useState([]);
     const [showModal, setShowModal] = useState(false);
     const [selectedOption, setSelectedOption] = useState("");
@@ -87,10 +87,9 @@ const TransactionBlock = () => {
                             <label>
                                 КАТЕГОРИЯ:
                                 <select value={selectedOption} onChange={handleOptionChange}>
-                                    <option value="">Select Category</option>
-                                    <option value="food">Food</option>
-                                    <option value="shopping">Shopping</option>
-                                    <option value="transport">Transport</option>
+                                    {props.cardBlocks.map(item => (
+                                        <option key={item.id} value={item.id}>{item.title}</option>
+                                    ))}
                                 </select>
                             </label>
                             <label>

@@ -7,16 +7,15 @@ import TransactionBlock from "./components/TransactionBlock/TransactionBlock";
 
 const App = () => {
     return (
-       <div>
-        <div className="container">
-            <div className="cards">
+
+        <div >
+            <div >
                 <IncomeCard />
                 <CostCard />
             </div>
-
         </div>
-           <TransactionBlock />
-       </div>
+
+
     );
 };
 

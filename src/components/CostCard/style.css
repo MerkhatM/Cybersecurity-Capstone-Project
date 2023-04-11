@@ -1,12 +1,12 @@
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
+.cardCost {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+
     width: 540px;
     height: 290px;
-    margin-right: 30px;
+    margin: 70px 30px 70px 25%;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -80,4 +80,7 @@ button {
     font-weight: bold;
     cursor: pointer;
     margin-left: 20px;
+}
+.transaction-block{
+    margin-top: 30px;
 }
