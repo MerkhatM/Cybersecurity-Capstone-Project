@@ -50,7 +50,7 @@ th {
 }
 
 .modal-content {
-    position: relative; /* add this line */
+    position: relative;
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
@@ -75,11 +75,11 @@ th {
 
 label {
     display: block;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
-select,
-input[type="number"] {
+select,input[type="number"] {
     width: 90%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -90,7 +90,7 @@ input[type="number"] {
 
 button[type="submit"] {
 
-    margin-left: 90px;
+    margin-left: 80px;
     width: 100px;
     border: none;
     background-color: #008CBA;

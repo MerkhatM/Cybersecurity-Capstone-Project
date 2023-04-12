@@ -6,7 +6,7 @@
 
     width: 540px;
     height: 290px;
-    margin: 70px 30px 70px 25%;
+    margin: 70px 30px 70px 380px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -51,7 +51,9 @@
 .card-block::-webkit-scrollbar {
     display: none;
 }
-
+.modal{
+    overflow: hidden;
+}
 .card-block h3 {
     font-size: 16px;
     font-weight: bold;
@@ -83,4 +85,10 @@ button {
 }
 .transaction-block{
     margin-top: 30px;
+}
+.submit_modal_button{
+    margin-right: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
